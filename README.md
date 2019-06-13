@@ -18,7 +18,7 @@
 
 ## References
 - "SPH Fluids in Computer Graphics", Ihmsen, Orthmann, Solenthaler, Kolb, Teschner
-- "Divergence-Free SPH for Incompressible and Viscous Fluids", Bender, Koschier, 2016
+- Jan Bender and Dan Koschier. Divergence-free SPH for incompressible and viscous fluids. IEEE Transactions on Visualization and Computer Graphics, 2017.
 - Miles Macklin, Matthias Müller, Nuttapong Chentanez and Tae-Yong Kim. Unified Particle Physics for Real-Time Applications. ACM Trans. Graph., 33(4), 2014
 
 ## Videos
