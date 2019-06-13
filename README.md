@@ -84,6 +84,10 @@ The DFSPH paper also introduces an implicit viscosity solver.
 " target="_blank"><img src="http://img.youtube.com/vi/9aFXjCeBRfM/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9Pxq13tPAww
+" target="_blank"><img src="http://img.youtube.com/vi/9Pxq13tPAww/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ### Air-Fluid Interaction
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=8WPkl9PBEw0
 " target="_blank"><img src="http://img.youtube.com/vi/8WPkl9PBEw0/0.jpg" 
