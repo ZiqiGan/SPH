@@ -4,11 +4,17 @@
 
 ## Features
 This project implements:
-- Basic SPH Solver
-- Acceleration Structure
-- Divergence Free Solver
-- High Viscosity Fluid
-- Air-Fluid Interaction
+### Basic SPH Solver
+### Acceleration Structure
+For faster neighborhood search I implemented a uniform grid.  
+- The simulation space is divided into small cubic cells.
+- Each particle is associated with one of the cells. 
+- The cell length equals to the support radius of the kernel. 
+- For each particle, loop through $3^3 = 27$ cells to find all its neighbors.
+### Divergence Free Solver
+### High Viscosity Fluid
+The DFSPH paper also introduces an implicit viscosity solver, 
+### Air-Fluid Interaction
 
 ## External Libraries
 1. OpenGL Bindings: [GLEW](http://glew.sourceforge.net/), [GLFW](https://www.glfw.org/) . 
