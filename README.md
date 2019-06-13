@@ -2,12 +2,13 @@
 #### Author: Ziqi Gan
 #### Project: Particle Based Fluids
 
-## Sub-topics:
-### Basic SPH sovler
-### Acceleration Structure
-### Divergence Free Solver
-### High Viscosity Fluid
-### Air-Fluid Interaction
+## Features
+This project implements:
+- Basic SPH Solver
+- Acceleration Structure
+- Divergence Free Solver
+- High Viscosity Fluid
+- Air-Fluid Interaction
 
 ## External Libraries
 1. OpenGL Bindings: [GLEW](http://glew.sourceforge.net/), [GLFW](https://www.glfw.org/) . 
