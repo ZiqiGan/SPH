@@ -1,4 +1,27 @@
 ## UCSD CSE 291D  SP19
+#### Author: Ziqi Gan
+#### Project: Particle Based Fluids
+
+## Sub-topics:
+### Basic SPH sovler
+### Acceleration Structure
+### Divergence Free Solver
+### High Viscosity Fluid
+### Air-Fluid Interaction
+
+## External Libraries
+1. OpenGL Bindings: [GLEW](http://glew.sourceforge.net/), [GLFW](https://www.glfw.org/) . 
+2. Math: [GLM](https://glm.g-truc.net/0.9.9/index.html), [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) . 
+3. Search: [CompactNSearch](https://github.com/InteractiveComputerGraphics/CompactNSearch) . 
+4. GUI: [AntTweakBar](http://anttweakbar.sourceforge.net/doc/) . 
+5. Parallelism: [OpenMP](https://www.openmp.org/) . 
+
+## References
+- "SPH Fluids in Computer Graphics", Ihmsen, Orthmann, Solenthaler, Kolb, Teschner
+- "Divergence-Free SPH for Incompressible and Viscous Fluids", Bender, Koschier, 2016
+- Miles Macklin, Matthias Müller, Nuttapong Chentanez and Tae-Yong Kim. Unified Particle Physics for Real-Time Applications. ACM Trans. Graph., 33(4), 2014
+
+## Videos
 
 
 You can use the [editor on GitHub](https://github.com/ZiqiGan/SPH/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -24,15 +47,4 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZiqiGan/SPH/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
