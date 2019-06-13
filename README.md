@@ -37,6 +37,7 @@ For faster neighborhood search I implemented a uniform grid.
 - Divergence free solver is used to correct velocity field.
 - Constant density solver to correct numerical errors.
 - Simulation Step:
+
 ```
 For all particles:
   find neighbors
@@ -46,7 +47,7 @@ For all particles:
 while(t < t_max):
   For all particles:
     calculate non-pressure forces.
-  calculate adaptive time step using CFL condition
+  Calculate adaptive time step using CFL condition
   For all particles:
     predict velocities with calculated time step
   correct density error
@@ -56,11 +57,11 @@ while(t < t_max):
     find neighbors
   For all particles:
     calulate densities and some factors
-  For all particles:
-    correct divergence error
+  Correct divergence error
   For all particles:
     update velocities
 ```
+
 - Pros:
   * Stable
   * Adaptive time step for faster update
@@ -69,7 +70,7 @@ while(t < t_max):
   
 ### High Viscosity Fluid
 The DFSPH paper also introduces an implicit viscosity solver.
-- Viscosity tensor is defined by the strain rate tensor adn the viscosity coefficient.
+- Viscosity tensor is defined by the strain rate tensor and the viscosity coefficient.
 - Similar approach as the divergence and density solver.
 - Iteratively compute the predicted strain rate, comparing it with the target strain rate, and correct velocities.
 - Pros: Easy to intergrate with the divergence free solver.
@@ -103,5 +104,3 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 - "SPH Fluids in Computer Graphics", Ihmsen, Orthmann, Solenthaler, Kolb, Teschner
 - Jan Bender and Dan Koschier. Divergence-free SPH for incompressible and viscous fluids. IEEE Transactions on Visualization and Computer Graphics, 2017.
 - Miles Macklin, Matthias Müller, Nuttapong Chentanez and Tae-Yong Kim. Unified Particle Physics for Real-Time Applications. ACM Trans. Graph., 33(4), 2014
-
-## Videos
