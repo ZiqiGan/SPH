@@ -65,9 +65,22 @@ while(t < t_max):
   * Stable
   * Adaptive time step for faster update
 - Cons:
-  * Difficult to implement. Have to set up intial conditions carefully.
+  * Difficult to implement. Have to set up initial conditions carefully.
+  
 ### High Viscosity Fluid
-The DFSPH paper also introduces an implicit viscosity solver, 
+The DFSPH paper also introduces an implicit viscosity solver.
+- Viscosity tensor is defined by the strain rate tensor adn the viscosity coefficient.
+- Similar approach as the divergence and density solver.
+- Iteratively compute the predicted strain rate, comparing it with the target strain rate, and correct velocities.
+- Pros: Easy to intergrate with the divergence free solver.
+- Cons:
+  * Viscosity parameter depends on the time step. Not physically meaningful.
+  * Solving the inverse of a six-dimentional matrix for each constriant, causing a large computional effort.
+  * Extremely difficult to set up initial conditions.
+    + Fixed time step: 1ms
+    + particle radius: 0.025m
+    
+
 ### Air-Fluid Interaction
 
 ## External Libraries
