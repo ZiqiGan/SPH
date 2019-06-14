@@ -6,7 +6,7 @@
 This project implements:
 ### Basic SPH Solver
 - Algorithm 1 from "SPH Fluids in Computer Graphics"
-- Calulate pressure force explicitly with state equations.
+- Calculate pressure force explicitly with state equations.
 ```
 For all particles:
   Find neighbors
@@ -16,7 +16,7 @@ For all particles:
   compute presssure force
   compute viscosity force
   compute other forces (e.g. gravity)
-  Add them up
+  add them up
 For all particles:
   update velocity
   update position
